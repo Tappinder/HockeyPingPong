@@ -1,0 +1,25 @@
+hockey-ping-pong/
+├── public/                  # Static assets (favicon, manifest, etc.)
+├── src/
+│   ├── components/          # Your UI components like Button, Card, Slider, etc.
+│   ├── hooks/               # Custom hooks like useHockeySounds.ts
+│   ├── HockeyPingPong.tsx   # Your main game component
+│   ├── main.tsx             # Entry point, ReactDOM.render
+│   └── styles.css           # Global styles or Tailwind config if used
+├── .gitignore               # Ignore node_modules, build output, etc.
+├── package.json             # Project dependencies and scripts
+├── tsconfig.json            # TypeScript config
+├── vite.config.ts           # Vite config
+└── README.md
+
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+}
+git init
+git add .
+git commit -m "Initial commit - Hockey Ping Pong game"
+git remote add origin https://github.com/TAPPINDER/hockey-ping-pong.git
+git branch -M main
+git push -u origin main
